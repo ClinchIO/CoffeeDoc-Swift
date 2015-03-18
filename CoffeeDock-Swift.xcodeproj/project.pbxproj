@@ -1,0 +1,403 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D293C071AB873A8009A707F /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D293C061AB873A8009A707F /* CoreLocation.framework */; };
+		3D79A5411AB88AAE00A1B372 /* ClinchKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 3D79A53C1AB88A9100A1B372 /* ClinchKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		3DAD67B41AB8330000155CFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD67B31AB8330000155CFE /* AppDelegate.swift */; };
+		3DAD67B61AB8330000155CFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DAD67B51AB8330000155CFE /* ViewController.swift */; };
+		3DAD67B91AB8330000155CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD67B71AB8330000155CFE /* Main.storyboard */; };
+		3DAD67BB1AB8330000155CFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD67BA1AB8330000155CFE /* Images.xcassets */; };
+		3DAD67BE1AB8330000155CFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3DAD67BC1AB8330000155CFE /* LaunchScreen.xib */; };
+		3DAD67DC1AB8361600155CFE /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DAD67DB1AB8361600155CFE /* CoreData.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3D79A53B1AB88A9100A1B372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D79A5341AB88A9000A1B372 /* ClinchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D14469D1AA8D97000468A7F;
+			remoteInfo = ClinchKit;
+		};
+		3D79A53D1AB88A9100A1B372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D79A5341AB88A9000A1B372 /* ClinchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D1446A81AA8D97000468A7F;
+			remoteInfo = ClinchKitTests;
+		};
+		3D79A53F1AB88A9100A1B372 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3D79A5341AB88A9000A1B372 /* ClinchKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 3D2D8FB91AB6FAC8004F716C;
+			remoteInfo = ClinchKitTestHostApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		3DAD67DA1AB833B000155CFE /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				3D79A5411AB88AAE00A1B372 /* ClinchKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3D293C061AB873A8009A707F /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		3D79A5341AB88A9000A1B372 /* ClinchKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ClinchKit.xcodeproj; path = "../ios-clinchkit/ClinchKit/ClinchKit.xcodeproj"; sourceTree = "<group>"; };
+		3DAD67AE1AB8330000155CFE /* CoffeeDock-Swift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CoffeeDock-Swift.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DAD67B21AB8330000155CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3DAD67B31AB8330000155CFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3DAD67B51AB8330000155CFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3DAD67B81AB8330000155CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DAD67BA1AB8330000155CFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DAD67BD1AB8330000155CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		3DAD67DB1AB8361600155CFE /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DAD67AB1AB8330000155CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D293C071AB873A8009A707F /* CoreLocation.framework in Frameworks */,
+				3DAD67DC1AB8361600155CFE /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D79A5351AB88A9000A1B372 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3D79A53C1AB88A9100A1B372 /* ClinchKit.framework */,
+				3D79A53E1AB88A9100A1B372 /* ClinchKitTests.xctest */,
+				3D79A5401AB88A9100A1B372 /* ClinchKitTestHostApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DAD67A51AB8330000155CFE = {
+			isa = PBXGroup;
+			children = (
+				3D79A5341AB88A9000A1B372 /* ClinchKit.xcodeproj */,
+				3D293C061AB873A8009A707F /* CoreLocation.framework */,
+				3DAD67DB1AB8361600155CFE /* CoreData.framework */,
+				3DAD67B01AB8330000155CFE /* CoffeeDock-Swift */,
+				3DAD67AF1AB8330000155CFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DAD67AF1AB8330000155CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DAD67AE1AB8330000155CFE /* CoffeeDock-Swift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DAD67B01AB8330000155CFE /* CoffeeDock-Swift */ = {
+			isa = PBXGroup;
+			children = (
+				3DAD67B31AB8330000155CFE /* AppDelegate.swift */,
+				3DAD67B51AB8330000155CFE /* ViewController.swift */,
+				3DAD67B71AB8330000155CFE /* Main.storyboard */,
+				3DAD67BA1AB8330000155CFE /* Images.xcassets */,
+				3DAD67BC1AB8330000155CFE /* LaunchScreen.xib */,
+				3DAD67B11AB8330000155CFE /* Supporting Files */,
+			);
+			path = "CoffeeDock-Swift";
+			sourceTree = "<group>";
+		};
+		3DAD67B11AB8330000155CFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DAD67B21AB8330000155CFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DAD67AD1AB8330000155CFE /* CoffeeDock-Swift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DAD67CD1AB8330000155CFE /* Build configuration list for PBXNativeTarget "CoffeeDock-Swift" */;
+			buildPhases = (
+				3DAD67AA1AB8330000155CFE /* Sources */,
+				3DAD67AB1AB8330000155CFE /* Frameworks */,
+				3DAD67AC1AB8330000155CFE /* Resources */,
+				3DAD67DA1AB833B000155CFE /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "CoffeeDock-Swift";
+			productName = "CoffeeDock-Swift";
+			productReference = 3DAD67AE1AB8330000155CFE /* CoffeeDock-Swift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DAD67A61AB8330000155CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Clinch, Ltd";
+				TargetAttributes = {
+					3DAD67AD1AB8330000155CFE = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = E59VR5G359;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 3DAD67A91AB8330000155CFE /* Build configuration list for PBXProject "CoffeeDock-Swift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DAD67A51AB8330000155CFE;
+			productRefGroup = 3DAD67AF1AB8330000155CFE /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 3D79A5351AB88A9000A1B372 /* Products */;
+					ProjectRef = 3D79A5341AB88A9000A1B372 /* ClinchKit.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				3DAD67AD1AB8330000155CFE /* CoffeeDock-Swift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		3D79A53C1AB88A9100A1B372 /* ClinchKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = ClinchKit.framework;
+			remoteRef = 3D79A53B1AB88A9100A1B372 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D79A53E1AB88A9100A1B372 /* ClinchKitTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ClinchKitTests.xctest;
+			remoteRef = 3D79A53D1AB88A9100A1B372 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		3D79A5401AB88A9100A1B372 /* ClinchKitTestHostApp.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ClinchKitTestHostApp.app;
+			remoteRef = 3D79A53F1AB88A9100A1B372 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DAD67AC1AB8330000155CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAD67B91AB8330000155CFE /* Main.storyboard in Resources */,
+				3DAD67BE1AB8330000155CFE /* LaunchScreen.xib in Resources */,
+				3DAD67BB1AB8330000155CFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DAD67AA1AB8330000155CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DAD67B61AB8330000155CFE /* ViewController.swift in Sources */,
+				3DAD67B41AB8330000155CFE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3DAD67B71AB8330000155CFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAD67B81AB8330000155CFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DAD67BC1AB8330000155CFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DAD67BD1AB8330000155CFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DAD67CB1AB8330000155CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3DAD67CC1AB8330000155CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DAD67CE1AB8330000155CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoffeeDock-Swift",
+				);
+				INFOPLIST_FILE = "CoffeeDock-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		3DAD67CF1AB8330000155CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/CoffeeDock-Swift",
+				);
+				INFOPLIST_FILE = "CoffeeDock-Swift/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DAD67A91AB8330000155CFE /* Build configuration list for PBXProject "CoffeeDock-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAD67CB1AB8330000155CFE /* Debug */,
+				3DAD67CC1AB8330000155CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DAD67CD1AB8330000155CFE /* Build configuration list for PBXNativeTarget "CoffeeDock-Swift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DAD67CE1AB8330000155CFE /* Debug */,
+				3DAD67CF1AB8330000155CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DAD67A61AB8330000155CFE /* Project object */;
+}
